@@ -16,7 +16,7 @@ wondered how I would stand up in a professional league. Of course my skills are 
 
 ## Describe your dataset in about 150-200 words
 
-{Add your stuff here}
+Our dataset breaks down the statistics of any given player in each year that they played in the NHL. The dataset covers on-ice statistics such as goals, assists, and shooting statistics. In addition, it includes personal information on each player. You can find the players age, experience, and place of birth. Finally, it has information on the players height and weight. The most recent update was one year ago. The data covers information ranging between 1980 and 2020. For a more relevant analysis we will focus on 2000 onwards.This dataset was created for public interest with an extremely open ended set of data. The data can be further edited for transparency and to answer different research questions regarding the NHL and its players. Overall the data was created for fun use and public interest. The dataset was created by a Kaggle user named "BenZik". How the data was obtained is not specified. From the evidence at hand it appears the creator of the dataset, BenZik, supplied the data from another source which is not specified.
 
 ## Team Members
 
