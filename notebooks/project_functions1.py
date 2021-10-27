@@ -5,12 +5,14 @@ import numpy as np
 
 
 def unprocessed(csv_file):
+    #Takes in a csv file and returns a panads dataframe.
     df = pd.read_csv(csv_file, sep=";")
     return df
 
 # Method Chain 2 (Create new columns, drop others, and do processing)
 
 def load_and_process(csv_file):
+    # Takes in a csv file and returns a cleaned dataframe by dropping unnecassry columns and null values and rows. In addition it merges duplicate values where appropriate.
     df = pd.read_csv(csv_file, sep=";")
     df1=(
         df.drop(["Date_of_birth", "TEAM", "Place_of_birth", "Saves", "Save_Percentage", "Shutouts", "Goals_Against", "Goals_Against_Average", "Shots_Against",
