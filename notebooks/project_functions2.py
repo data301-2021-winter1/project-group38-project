@@ -37,6 +37,6 @@ def mvp_seasons(csv_file):
     df3 = (
         pd.merge(df2, mvp_df))
     df4 = (
-        df3.mergeby(["Name", "SEASON_year", "Position", "Height", "Weight", "Age", "Experience", "MVP"],as_index=False)[["Games_Played","Goals", "Assists","Points", "PlusMinus_Ratings", "Game_Winning_Goals"]].sum())
+        df3.groupby(["Name", "SEASON_year", "Position", "Height", "Weight", "Age", "Experience", "MVP"],as_index=False)[["Games_Played","Goals", "Assists","Points", "PlusMinus_Ratings", "Game_Winning_Goals"]].sum())
         
     return df4
