@@ -1,10 +1,15 @@
 import pandas as pd
 
-def unprocessed(path):
+def unprocessed(path): # returns unprocessed data. 
     df = pd.read_csv(path, sep = ';')
     return df
 
+ # loads the data, drops some columns which are redundant, 
+ # then drops players who played before 2000, also drops players in forward position because they were almost 10, I dropped them in order to make my analysis more concrete. 
+ # For the last df4 I grouped the players based on their name, position, height, weight, body mass index, adn then sum their other statistics. At last, returns processed data. 
+
 def load_and_process(path):
+
     df = pd.read_csv(path, sep = ';')
 
     df1 = (
