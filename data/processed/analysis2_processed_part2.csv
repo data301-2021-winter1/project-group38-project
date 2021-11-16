@@ -1,0 +1,15 @@
+Name,SEASON_year,Position,Height,Weight,Age,Experience,MVP,Games_Played,Goals,Assists,Points,PlusMinus_Ratings,Game_Winning_Goals
+Alex Ovechkin,2008,Left_wing,190,108,23,3,Yes,82,65.0,47.0,112.0,28.0,11.0
+Alex Ovechkin,2009,Left_wing,190,108,24,4,Yes,79,56.0,54.0,110.0,8.0,10.0
+Alex Ovechkin,2013,Left_wing,190,108,28,8,Yes,48,32.0,24.0,56.0,2.0,4.0
+Corey Perry,2011,Right_wing,190,95,26,6,Yes,82,50.0,48.0,98.0,9.0,11.0
+Evgeni Malkin,2012,Centre,190,88,26,6,Yes,75,50.0,59.0,109.0,18.0,9.0
+Henrik Sedin,2010,Centre,188,85,30,10,Yes,82,29.0,83.0,112.0,35.0,5.0
+Joe Sakic,2001,Centre,180,88,32,13,Yes,82,54.0,64.0,118.0,45.0,12.0
+Joe Thornton,2006,Centre,193,100,27,9,Yes,81,29.0,96.0,125.0,31.0,6.0
+Martin St. Louis,2004,Right_wing,173,80,29,6,Yes,82,38.0,56.0,94.0,35.0,7.0
+Patrick Kane,2016,Right_wing,178,80,28,9,Yes,82,46.0,60.0,106.0,17.0,9.0
+Peter Forsberg,2003,Centre,183,93,30,9,Yes,75,29.0,77.0,106.0,52.0,2.0
+Sidney Crosby,2007,Centre,180,91,20,2,Yes,79,36.0,84.0,120.0,10.0,4.0
+Sidney Crosby,2014,Centre,180,91,27,9,Yes,80,36.0,68.0,104.0,18.0,5.0
+Taylor Hall,2018,Left_wing,185,91,27,8,Yes,76,39.0,54.0,93.0,14.0,7.0
